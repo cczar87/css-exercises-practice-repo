@@ -8,18 +8,17 @@ body {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
 .para {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
+.small-para {
+  font-size: 14px;
+}
+
+#confirm-button {
+  background-color: #008000;
+  color: #ffffff;
   font-weight: bold;
 } 
 
@@ -29,14 +28,15 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+div .text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
